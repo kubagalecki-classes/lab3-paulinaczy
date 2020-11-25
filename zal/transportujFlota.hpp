@@ -2,12 +2,15 @@
 
 #include "Stocznia.hpp"
 unsigned int transportujFlota(unsigned int towar)
-{unsigned int liczba_z = 0;
-unsigned int suma_t = 0;
+{
+  unsigned int liczba_z = 0;
+  unsigned int suma_t = 0;
 
 if (towar == 0)
-{ return 0;}
-else (
+{ 
+  return 0;
+}
+else
 while (suma_t<towar)
 {
 Stocznia stocznia{};
