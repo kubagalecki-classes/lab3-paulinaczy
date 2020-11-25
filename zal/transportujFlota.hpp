@@ -18,7 +18,7 @@ Statek* s1=stocznia();
 suma_t=suma_t+s1->transportuj();
 if (s1==dynamic_cast<Zaglowiec*>(s1))
 {
-Zaglowiec=Zaglowiec+1;
+liczba_z=liczba_z+1;
 }
 delete s1;
 }
